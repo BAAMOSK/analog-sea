@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AnalogSea</title>
+    <link rel="stylesheet" href="views/main.css">
+</head>
+<body>
+   
+   <img src="views/logo.png" alt="AnalogSea logo" class="logo"/>
+   
+    
+    <form action="/signup" class="signup-form" method="post">
+     <legend>Sign up</legend>    
+      
+       <label for="user-email">Email</label>
+       <input type="email" placeholder="Yolo@Cholo.com" name="user-email" id="user_email" required/>
+      
+       <label for="user-password">Password</label> 
+       <input type="password" placeholder="1234passw0rd" label="false" id="user-password" required/>
+       
+       <button type="submit">Sign up</button>
+       
+       <p><a href="/forgot_password/new">Forgot Password?</a></p>
+       
+   </form>
+      
+      <div class="footer">
+          <p>Already have an account? <a href="/login">Log in</a></p>
+      </div>
+       
+</body>
+</html>
